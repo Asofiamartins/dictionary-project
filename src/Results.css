@@ -1,0 +1,53 @@
+:root {
+  --tape-gray: #dbd8be;
+  --tape-edge-gray: #b7b49d;
+  --transparent: rgba(255, 255, 255, 0);
+}
+.top-tape {
+  position: relative;
+  height: 40px;
+  top: -140px;
+  left: 395px;
+  width: 200px;
+  background-color: var(--tape-gray);
+  border-right: 1px dotted var(--tape-edge-gray);
+  border-left: 1px dotted var(--tape-edge-gray);
+  opacity: 0.6;
+  transform: rotate(4deg);
+}
+.postIt {
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #000;
+  background: #ffc;
+  display: block;
+  height: 10em;
+  width: 10em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transform: rotate(4deg);
+  position: relative;
+  top: 90px;
+  right: -450px;
+}
+.Paper {
+  background: white;
+  display: block;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 120px 40px;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+}
+.Results p {
+  text-align: left;
+}
+
+.Results h2 {
+  font-weight: 500;
+  font-family: "Gochi Hand", cursive;
+  font-size: 40px;
+  color: black;
+  padding: 0 auto;
+  margin: 0 auto;
+}
