@@ -1,0 +1,12 @@
+.Synonyms {
+  margin: 20px 0 30px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  line-height: 1;
+  font-weight: 500;
+}
