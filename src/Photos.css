@@ -1,0 +1,28 @@
+.Photos {
+  margin-top: 40px;
+}
+.Photos .row {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.Photos img {
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px 10px 35px 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Photos .top-tape {
+  position: absolute;
+  height: 25px;
+  top: -10px;
+  left: 100px;
+  width: 50px;
+  background-color: #dbd8be;
+  border-right: 1px dotted #b7b49d;
+  border-left: 1px dotted #b7b49d;
+  opacity: 0.5;
+}

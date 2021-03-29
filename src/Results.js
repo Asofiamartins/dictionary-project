@@ -12,6 +12,11 @@ return (
        <div className="Results">
            
                 <section className="postIt">
+                    
+                    <div class="pin">
+                     <div class="metal"></div>
+                    <div class="bottom-circle"></div>
+                     </div>
                         <h2>{props.results.word}</h2>
            
                         {props.results.phonetics.map(function (phonetic, index){
@@ -23,18 +28,18 @@ return (
                              })}
                     
            </section>
-            <section className="Paper">
-              <div class="top-tape"></div>       
+                   
            {props.results.meanings.map(function(meaning, index){
                return (
                    <section  key={index}>
-                        
+                    <section className="Paper">
+              <div class="top-tape"></div>    
                    <Meaning meaning={meaning}/>
-                   
+                   </section> 
                    </section>
                )
            })}
-            </section>  
+             
        </div>  );
     } else {
         return null
