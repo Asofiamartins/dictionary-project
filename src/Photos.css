@@ -15,10 +15,10 @@
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
 }
 
-.Photos .top-tape {
+.top-tape {
   position: absolute;
   height: 25px;
-  top: -10px;
+  top: -8px;
   left: 100px;
   width: 50px;
   background-color: #dbd8be;
