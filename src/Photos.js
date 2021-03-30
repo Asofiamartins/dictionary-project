@@ -16,7 +16,7 @@ export default function Photos(props) {
             {props.photos.map(function( photos,index){
                 return  (
                     <div className="col-3" key={index}>
-                    <div class="top-tape"></div>
+                    <div claclassNames="top-tape"></div>
                     <a href={photos.src.orginal} rel="noreferrer" target="_blank" >
                     <img src={photos.src.tiny} className="img-fluid" /> 
                     </a>

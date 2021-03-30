@@ -13,9 +13,9 @@ return (
            
                 <section className="postIt">
                     
-                    <div class="pin">
-                     <div class="metal"></div>
-                    <div class="bottom-circle"></div>
+                    <div cclassName="pin">
+                     <div className="metal"></div>
+                    <div className="bottom-circle"></div>
                      </div>
                         <h2>{props.results.word}</h2>
            
