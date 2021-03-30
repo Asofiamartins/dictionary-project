@@ -37,12 +37,12 @@ return (
                    <Meaning meaning={meaning}/>
                    </section> 
                    </section>
-               )
+               );
            })}
              
        </div>  );
     } else {
-        return null
+        return null;
     }
    
   
