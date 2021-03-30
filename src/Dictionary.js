@@ -45,5 +45,5 @@ export default function Dictionary(){
             <Results results={results}/>
             <Photos photos={photos}/>
         </div>
-    )
+    );
 }
