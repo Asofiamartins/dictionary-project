@@ -13,10 +13,7 @@ return (
            
                 <section className="postIt">
                     
-                    <div cclassName="pin">
-                     <div className="metal"></div>
-                    <div className="bottom-circle"></div>
-                     </div>
+                    
                         <h2>{props.results.word}</h2>
            
                         {props.results.phonetics.map(function (phonetic, index){
